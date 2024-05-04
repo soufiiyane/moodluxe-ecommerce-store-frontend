@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Poppins:wght@100;200;300;400;500;600;700&display=swap&family=Montserrat:wght@500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+        background-color: white;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: darkgray;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+/*Remove arrows from an input number*/
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button,
+input[type='number'] {
+        -webkit-appearance: none;
+        margin: 0;
+        -moz-appearance: textfield !important;
+    }
+
+.ql-container{
+    border-bottom-left-radius: 0.25em;
+    border-bottom-right-radius: 0.25em;
+}
+
+.ql-snow.ql-toolbar {
+    border-top-left-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+    border: 1px solid rgb(156 163 175) !important;
+    border-bottom: none!important;
+}
+
+.ql-container.ql-snow{
+    border: 1px solid rgb(156 163 175)!important;
+}
+
