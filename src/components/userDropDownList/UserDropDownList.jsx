@@ -20,7 +20,6 @@ const UserDropDownList = ({active})=>{
         localStorage.removeItem("kc_token");
         localStorage.removeItem("kc_refreshToken");
         setUser(null);
-        removeCookie("order-number",{path:'/'});
         delete axiosInstance.defaults.headers.common["Authorization"];
         navigate("/");
     }
@@ -41,12 +40,6 @@ const UserDropDownList = ({active})=>{
                                     <li className={"hover:bg-gray-300 px-5 py-3 flex items-center gap-2"}>
                                         <RiDashboardFill className={"text-xl"}/>
                                         Dashboard
-                                    </li>
-                                </NavLink>
-                                <NavLink to="/admin/settings">
-                                    <li className={"hover:bg-gray-300 px-5 py-3 flex items-center gap-2"}>
-                                        <RiSettings2Line className={"text-xl"}/>
-                                        Settings
                                     </li>
                                 </NavLink>
                                 <li className={"hover:bg-gray-300 px-5 py-3 flex items-center gap-2"} onClick={handleLogout}>
