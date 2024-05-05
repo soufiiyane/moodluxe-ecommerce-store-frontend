@@ -18,7 +18,6 @@ const HomePage = ()=>{
             <AboutSection/>
             <NewsLettersSection/>
             <ScrollTopButton/>
-            <NewsLetterPopup/>
         </HomeLayout>
     )
 }
