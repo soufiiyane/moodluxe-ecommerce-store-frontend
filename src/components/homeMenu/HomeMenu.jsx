@@ -70,12 +70,6 @@ const HomeMenu = () => {
                         </button>
                         <NavLink
                             className={(navData) => (navData.isActive ? 'sm:border-b-4 sm:border-white' : '')}
-                            to="/products/all"
-                        >
-                            <li className={"p-4"}>Sale</li>
-                        </NavLink>
-                        <NavLink
-                            className={(navData) => (navData.isActive ? 'sm:border-b-4 sm:border-white' : '')}
                             to="/contact-us"
                         >
                             <li className={"p-4"}>Contact us</li>

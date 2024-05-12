@@ -199,7 +199,6 @@ const CheckoutPage = ()=>{
                                     <CheckoutOrderShippingInfo orderAdresseInfo={orderAdresseInfo} setOrderAdresseInfo={setOrderAdresseInfo}/>
                                     <div>
                                         <PaypalContainer/>
-                                        <StripeContainer amount={totalAmount} paymentLoading={handleStripePaymentLoading} paymentCompleted={handlePaymentCompleted}/>
                                     </div>
                                 </div>
                             </div>
