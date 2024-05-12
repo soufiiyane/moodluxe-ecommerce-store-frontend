@@ -11,5 +11,4 @@ describe('template spec', () => {
     cy.contains('Contact us').click();
     cy.url().should('include', '/contact-us');
   });
-
 });
