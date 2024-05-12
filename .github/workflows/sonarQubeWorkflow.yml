@@ -6,7 +6,6 @@ on:
       - main
   pull_request:
     types: [opened, synchronize, reopened]
-
 jobs:
   sonarqube_analysis:
     runs-on: ubuntu-latest
